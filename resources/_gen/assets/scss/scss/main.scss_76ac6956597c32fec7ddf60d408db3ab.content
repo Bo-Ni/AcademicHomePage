@@ -7650,11 +7650,11 @@ div.alert a {
   align-self: center; }
 
 .svg-icon {
-  height: 0.9em;
-  width: 0.9em; }
+  height: 1.6em;
+  width: 1.6em; }
 
 .svg-icon.svg-baseline {
-  bottom: 0.1em;
+  bottom: 0.0em;
   line-height: 1;
   position: relative; }
 
@@ -9389,7 +9389,8 @@ iframe {
 
 /* https://github.com/gcushen/hugo-academic/issues/147 */
 .container {
-  max-width: 1000px; }
+  /*max-width: 1000px;*/
+  max-width: 85%; }
 
 .carousel-indicators li {
   background-color: #06805E80; }

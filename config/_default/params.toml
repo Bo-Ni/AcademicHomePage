@@ -44,7 +44,8 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "A data science blog and portfolio by Alison Hill"
+# description = "A data science blog and portfolio by Alison Hill"
+description = "A mechanics research website by Bo Ni"
 
 ############################
 ## Site Features
@@ -81,7 +82,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "apresstats@gmail.com"
+email = "bo_ni@brown.edu"
 phone = ""
 
 # Address
@@ -107,7 +108,7 @@ appointment_url = ""
 contact_links = [
   # {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/apreshill"},
   # {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Ask for help on RStudio Community", link = "https://community.rstudio.com/"},
+  # {icon = "comments", icon_pack = "fas", name = "Ask for help on RStudio Community", link = "https://community.rstudio.com/"},
   # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
   ]
 
@@ -119,7 +120,7 @@ contact_links = [
 sharing_image = "pom-card.png"
 
 # Twitter username (without @). Used when a visitor shares your site on Twitter.
-twitter = "apreshill"
+# twitter = "apreshill"
 
 ############################
 ## Regional Settings
