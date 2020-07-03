@@ -1,7 +1,7 @@
 ---
 authors:
 - Bo
-bio: I'm a developmental psychologist, former NIH Principal Investigator, and autism researcher who loves programming.
+bio: I'm a solid mechanics researcher who loves learning new tools and solving coupling problems.
 # education:
 #   courses:
 #   - course: PhD student in Solid Mechanics

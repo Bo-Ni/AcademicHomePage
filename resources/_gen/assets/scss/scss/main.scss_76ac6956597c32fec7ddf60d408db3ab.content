@@ -7340,6 +7340,13 @@ blockquote p:last-child {
   padding-top: 0.1rem;
   width: 100%; }
 
+.universal-wrapper-awesome {
+  margin: 0 auto;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+  padding-top: 0.1rem;
+  width: 100%; }
+
 @media only screen and (min-width: 1001px) {
   .universal-wrapper {
     width: 1000px; } }
