@@ -8533,6 +8533,13 @@ a.hero-cta-alt:hover {
   height: 100%;
   text-align: center; }
 
+.hero-media-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500%;
+  text-align: center; }
+
 /*************************************************
  *  Slider Widget
  **************************************************/
