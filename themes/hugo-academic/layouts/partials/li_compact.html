@@ -73,6 +73,7 @@
     {{ end }}
 
   </div>
+
   <div class="ml-3">
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
     {{ with $resource }}
