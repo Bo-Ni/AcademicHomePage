@@ -7,7 +7,7 @@ tags:
   - DFT
   - MD
   - PFC/PF
-  - inverse design
+  - Inverse design
 subtitle: ''
 summary: 'Fracture has been a grave concern for practical applications of graphene other atomically thin and brittle crystalline materials. In this NSF awarded project, we have been systematically exploring the potential of using topological effects to enhance the fracture toughness of graphene. By designing topological defect distribution and controlling the out-of-plane curvature, we numerically demonstrate that various toughening mechanisms can be activated, including crack tip blunting, crack trapping, ligament bridging, crack deflection, daughter crack initiation and coalescence, pseudo-plastic deformation as well as snap-through among multi-stable states, and toughen graphene and related 2D materials effectively.'
 authors: []
@@ -16,15 +16,64 @@ disable_jquery: no
 image:
   caption: ''
   focal_point: ''
-  preview_only: no
+  preview_only: yes
 projects: []
 ---
 
+## **Strong but fragile -- A story of graphene**
+
 It has been claimed that graphene, with the elastic modulus of 1 TPa and theoretical strength as high as 130 GPa, is the strongest material. However, from an engineering point of view, it is the fracture toughness that determines the actual strength of materials, as crack-like flaws (i.e., cracks, holes, notches, corners, etc.) are inevitable in the design, fabrication, and operation of practical devices and systems. Recently, it has been demonstrated that graphene has very low fracture toughness, in fact close to that of ideally brittle solids. These findings have raised sharp questions and are calling for efforts to explore effective methods to toughen graphene. 
 
-In this project, we have been systematically exploring the potential of using topological effects to enhance the fracture toughness of graphene. We organize our toughening framework under the concept of topological design, which is defined as “taking advantages of the cooperative interactions of topological defects, e.g., disclinations, dislocations, and grain boundaries, to achieve novel mechanical and physical properties through design and fabrication of 2D lattice with controlled distribution of topological defects”. In our framework, a phase field crystal (PFC) method is adopted to generate the atomic coordinates of material with specific topological patterns. We then perform molecular dynamics (MD) simulation/phase field (PF) modelling of fracture tests to examine the fracture properties. With this design framework, we have generated tough graphene samples, like rebar graphene, vein-patterned graphene, nacre-liked graphene and double-folded graphene, borrowing the inspirations from engineering and nature. Various toughening mechanisms are activated to hinder crack propagation and dissipate strain energy, including crack tip blunting, crack trapping, ligament bridging, crack deflection, daughter crack initiation and coalescence, pseudo-plastic deformation and snap-through among multi-stable states. A topological toughening library linking the simple topological patterns to the effective toughening mechanisms is presented as guidance for engineering tough 2D materials.
+<div class="row">
 
+  **_brittle fracture in graphene_**  
+</div>
+<div class="row">
+  <div class="col-12 col-lg-6">
+    {{< figure src="loc-ima/graphene-fra.jpg" >}}
+  </div>
+  <div class="col-12 col-lg-5">
+    {{< video src="loc-video/brittle_graphene.mp4" >}}
+  </div>
+</div>
 
+## **Topological defects and curvature**
+In this project, we have been systematically exploring the potential of using topological effects to enhance the fracture toughness of graphene. We organize our toughening framework under the concept of topological design, which is defined as “taking advantages of the cooperative interactions of topological defects, e.g., disclinations, dislocations, and grain boundaries, to achieve novel mechanical and physical properties through design and fabrication of 2D lattice with controlled distribution of topological defects”. In our framework, a phase field crystal (PFC) method is adopted to generate the atomic coordinates of material with specific topological patterns. We then perform molecular dynamics (MD) simulation/phase field (PF) modelling of fracture tests to examine the fracture properties. 
+
+<div class="row">
+
+  **_Curved graphene with topological defects_**  
+</div>
+<div class="row">
+  <div class="col-12 col-lg-12">
+    {{< figure src="loc-ima/topo-defect.jpg" >}}
+  </div>
+  <!-- <div class="col-12 col-lg-6">
+    {{< video src="loc-video/fpc.mp4" width="320" height="240" >}}
+  </div> -->
+</div>
+
+1. Ni B, et al. "Topological design of graphene." Handbook of Graphene, Volume 2: Physics, Chemistry, and Biology (2019): 1.
+
+## **Topologically designed graphene**
+With this design framework, we have generated tough graphene samples, like rebar graphene, vein-patterned graphene, nacre-liked graphene and double-folded graphene, borrowing the inspirations from engineering and nature. Various toughening mechanisms are activated to hinder crack propagation and dissipate strain energy, including crack tip blunting, crack trapping, ligament bridging, crack deflection, daughter crack initiation and coalescence, pseudo-plastic deformation and snap-through among multi-stable states. A topological toughening library linking the simple topological patterns to the effective toughening mechanisms is presented as guidance for engineering tough 2D materials.
+
+<div class="row">
+
+  **_Crack propagation in rebar graphene_**  
+</div>
+<div class="row">
+  <div class="col-12 col-lg-5">
+    {{< figure src="loc-ima/rebar.jpg" >}}
+  </div>
+  <div class="col-12 col-lg-7">
+    {{< video src="loc-video/rebar.mp4"  >}}
+    <!-- {{< youtube Kiq9BKby3VM >}} -->
+  </div>
+</div>
+
+2. Hacopian EF*, Yang Y*, Ni B* et al. "Toughening graphene by integrating carbon nanotubes." ACS nano 12.8 (2018): 7901-7910. (*contributed equally)
+3. Ni B et al. "Topological toughening of graphene" (under working)
 
 <!--A few weeks ago, I wrapped up teaching [tidymodels](https://www.tidymodels.org) for the third time. We say third time's the charm, right? Even during a global pandemic? I don't know, but this time around was fun in new ways and hard in new ways, so I wanted to take the time to write some thoughts down about how it went.
 
