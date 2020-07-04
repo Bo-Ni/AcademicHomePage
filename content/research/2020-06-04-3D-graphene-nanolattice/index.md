@@ -1,5 +1,5 @@
 ---
-title: 3D architected graphene nanolattice
+title: 3D graphene nanolattice that can snap
 author: Bo Ni
 date: '2020-06-04'
 categories: []
@@ -9,7 +9,7 @@ tags:
   - Snap-through
   - Pseudo plasticity
 subtitle: ''
-summary: 'The energy dissipation in graphene nanolattice is enhanced via a novel design with snap-through instability. In this project, we have constructed a group of reconfigurable graphene nanolattices based on a straw-like unit design. Combining molecular dynamics and theoretical model, pseudo plasticity and hysteresis of the nanolattices are demonstrated and explained. With these novel toughening mechanisms, the designed graphene nanolattice is predicted to be tolerant of crack-like flaw and dissipate energy better than carbon steel.'
+summary: '3D graphene nanolattice has open doors to achieve superior mechanical propeties, including specififc strength, stiffness and deformablility. In this project, the energy dissipation in graphene nanolattice is enhanced via a novel design with snap-through instability. We have constructed a group of reconfigurable graphene nanolattices based on a straw-like unit design. Combining molecular dynamics and theoretical model, pseudo plasticity and hysteresis of the nanolattices are demonstrated and explained. With these novel toughening mechanisms, the designed graphene nanolattice is predicted to be tolerant of crack-like flaw and dissipate energy better than carbon steel.'
 authors: []
 featured: no
 disable_jquery: no
