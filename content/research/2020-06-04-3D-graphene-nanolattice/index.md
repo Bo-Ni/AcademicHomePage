@@ -1,15 +1,15 @@
 ---
-title: Topological toughening of graphene
+title: 3D architected graphene nanolattice
 author: Bo Ni
-date: '2020-06-03'
+date: '2020-06-04'
 categories: []
 tags:
-  - DFT
   - MD
   - PFC/PF
-  - Inverse design
+  - Snap-through
+  - Pseudo plasticity
 subtitle: ''
-summary: 'Fracture has been a grave concern for practical applications of graphene other atomically thin and brittle crystalline materials. In this NSF awarded project, we have been systematically exploring the potential of using topological effects to enhance the fracture toughness of graphene. By designing topological defect distribution and controlling the out-of-plane curvature, we numerically demonstrate that various toughening mechanisms can be activated, including crack tip blunting, crack trapping, ligament bridging, crack deflection, daughter crack initiation and coalescence, pseudo-plastic deformation as well as snap-through among multi-stable states, and toughen graphene and related 2D materials effectively.'
+summary: 'The energy dissipation in graphene nanolattice is enhanced via a novel design with snap-through instability. In this project, we have constructed a group of reconfigurable graphene nanolattices based on a straw-like unit design. Combining molecular dynamics and theoretical model, pseudo plasticity and hysteresis of the nanolattices are demonstrated and explained. With these novel toughening mechanisms, the designed graphene nanolattice is predicted to be tolerant of crack-like flaw and dissipate energy better than carbon steel.'
 authors: []
 featured: no
 disable_jquery: no

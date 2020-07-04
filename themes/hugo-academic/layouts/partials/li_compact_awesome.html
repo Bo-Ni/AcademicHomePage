@@ -36,7 +36,7 @@
   <!--------------------------------------------------->
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-7   media stream-item">
+      <div class="col-12 col-lg-6   media stream-item">
 
         <div class="media-body">
 
@@ -83,7 +83,7 @@
 
       </div>
       <!--------------------------------------------------->
-      <div class="col-12 col-lg-5 ">
+      <div class="col-12 col-lg-6 ">
         <div class="ml-3">
           {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
           {{ with $resource }}
@@ -91,7 +91,7 @@
           <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
             <!-- <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}"> -->
             <!-- <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" style="width:200px;height:500px;" > -->
-            <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" >
+            <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" >
           </a>
           {{end}}
         </div>
