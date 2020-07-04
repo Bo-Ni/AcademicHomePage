@@ -75,6 +75,8 @@ With this design framework, we have generated tough graphene samples, like rebar
 2. Hacopian EF*, Yang Y*, Ni B* et al. "Toughening graphene by integrating carbon nanotubes." ACS nano 12.8 (2018): 7901-7910. (*contributed equally)
 3. Ni B et al. "Topological toughening of graphene" (under working)
 
+{{< gallery album="slides" >}}
+
 <!--A few weeks ago, I wrapped up teaching [tidymodels](https://www.tidymodels.org) for the third time. We say third time's the charm, right? Even during a global pandemic? I don't know, but this time around was fun in new ways and hard in new ways, so I wanted to take the time to write some thoughts down about how it went.
 
 ## But why?
