@@ -90,8 +90,8 @@
           {{ $image := .Resize "600x" }}
           <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
             <!-- <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}"> -->
-            <!-- <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" style="width:200px;height:500px;" > -->
-            <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" style="width:480px;height:360px;">
+            <!-- <img src="{{ .RelPermalink }}" alt="{{ $item.Title }}" style="width:480px;height:360px;" > -->
+            <img src="{{ $image.RelPermalink }}" alt="{{ $item.Title }}" >
           </a>
           {{end}}
         </div>

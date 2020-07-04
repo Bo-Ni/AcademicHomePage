@@ -1,15 +1,16 @@
 ---
-title: 3D graphene nanolattice that can snap
+title: 3D architectured graphene nanolattice
 author: Bo Ni
 date: '2020-06-04'
 categories: []
 tags:
   - MD
   - PFC/PF
+  - metamaterial
   - Snap-through
   - Pseudo plasticity
 subtitle: ''
-summary: '3D graphene nanolattice has open doors to achieve superior mechanical propeties, including specififc strength, stiffness and deformablility. In this project, the energy dissipation in graphene nanolattice is enhanced via a novel design with snap-through instability. We have constructed a group of reconfigurable graphene nanolattices based on a straw-like unit design. Combining molecular dynamics and theoretical model, pseudo plasticity and hysteresis of the nanolattices are demonstrated and explained. With these novel toughening mechanisms, the designed graphene nanolattice is predicted to be tolerant of crack-like flaw and dissipate energy better than carbon steel.'
+summary: '3D architectured graphene nanolattice has open doors to integrate superior mechanical propeties, including specififc strength, stiffness and deformability. In this project, the energy dissipation in graphene nanolattice is enhanced via a novel design with snap-through instability. We have constructed a group of reconfigurable graphene nanolattices based on a straw-like unit design. Combining molecular dynamics and theoretical model, pseudo plasticity and hysteresis of the nanolattices are demonstrated and explained. With these novel toughening mechanisms, the designed graphene nanolattice is predicted to be tolerant of crack-like flaw and dissipate energy better than carbon steel.'
 authors: []
 featured: no
 disable_jquery: no
@@ -24,22 +25,73 @@ gallery_item:
    caption: 
 ---
 
-## **Strong but fragile -- A story of graphene**
+##  **Carbon nanolattices: optimized lattices with ultra strong constituents**
 
-It has been claimed that graphene, with the elastic modulus of 1 TPa and theoretical strength as high as 130 GPa, is the strongest material. However, from an engineering point of view, it is the fracture toughness that determines the actual strength of materials, as crack-like flaws (i.e., cracks, holes, notches, corners, etc.) are inevitable in the design, fabrication, and operation of practical devices and systems. Recently, it has been demonstrated that graphene has very low fracture toughness, in fact close to that of ideally brittle solids. These findings have raised sharp questions and are calling for efforts to explore effective methods to toughen graphene. 
+Carbon micro/nano lattices are a unique family of architected metamaterials constructed from micro/nano-scale carbon constituents [1]. During the past few years, they have demonstrated exciting potentials in reaching theoretical limits of mechanical performances as well as integrating properties which are often mutually exclusive through experimental studies and numerical simulations [2-8]. The combination of small-scale carbon constituents and unlimited architecture designs of lattice opens a broad exploration space for better material properties in carbon nanolattices.
+
+## **For 3D graphene, ductility matters**
+
+Besides pursuing high specific strength, ductility is also particularly important to carbon nanolattices for robust performances [7].
+
+* At the material level, the carbon constituents, most made of graphene, are strong but intrinsically brittle [14]. To make use of the ultrahigh strength of graphene, it is also important to enhance the toughness and ductility.
+* At the structure level, buckling is an important mechanism to dissipate energy in nanolattice materials under compression [16-18]. However, permanent and continuous damage often accompanies buckling events. Under tensile loading, buckling can have much limited effect on energy dissipation [4, 5].
+Given the great potentials of carbon nanomaterials, it is important to enrich the design library of carbon nanolattices with examples of novel energy dissipation mechanisms in order to overcome this challenge.
+
+## **Snap-through instability: marco and micro scales**
+
+Like buckling, snap-through instability has been a long-time research topic [22-29]. Recent studies unveil some unique advantages of this instability.
+
+* On one hand, at macro-scale, sequential snap-through instabilities can be triggered under compressive and tensile loading conditions [25, 28] with little irriversibkle damage [28]. Metamaterials with snap-through instability often exhibit multiple mechanically stable states, which open doors to the design of shape-reconfigurable materials (SRMs) [25].
+* On the other hand, at small scales, basic conceptual units with mechanically bi-stable states and snap-through instability [30-33] have been adopted to explain deformation behaviors of phase transforming materials, including structure proteins with compactly folded or unfolded domains [34, 35] and shape memory alloys undergoing martensitic phase transformation [36].
+
+Such universal structure-to-property relationship indicates great potential in engineering complex overall deformation behavior via bi-stable units and snap-through instabilities.
 
 <div class="row">
 
-  **_brittle fracture in graphene_**  
+  <!-- **__**   -->
 </div>
 <div class="row">
-  <div class="col-12 col-lg-6">
-    {{< figure src="loc-ima/graphene-fra.jpg" >}}
+  <div class="col-12 col-lg-12">
+    {{< figure src="loc-ima/Motivation_fig_resize.jpg" >}}
   </div>
-  <div class="col-12 col-lg-5">
+  <!-- <div class="col-12 col-lg-5">
     {{< video src="loc-video/brittle_graphene.mp4" >}}
-  </div>
+  </div> -->
 </div>
+
+## **Can we use snap-through to toughen graphene nanolattices?**
+
+Through mechanism-inspired topological design,we present a novel design of 3D graphene nanolattice that can have multiple stable states with snap-through instability and demonstrate pseudo plastic deformation and hysteresis to effectively dissipate deformation energy and tolerate crack-like flaws.<br>
+
+At macroscale, the flexible straw [43, 44] can change length by transforming between the folded state and the extended state (Fig. 1 b and c). The states are mechanically stable [45]. Here, we constructed a full-atom model of graphene counterpart to such a unit cell by taking advantage of the methodology of topological design [46-48], which includes
+
+* phase field crystal modeling [49-51] of growing 2D crystal on the designed geometry of the conical frustra (Fig. 1d),
+* thermal relaxation of the obtained crystal structure via MD. 
+
+Unit cells with straw-like topology are constructed with graphene (which may be the thinnest straw).<br>
+These graphene straw unit cells can distingush from their conterpart at large scale due to
+* the presence of topological defects [46, 53], such as disclinations and dislocations, at the connections of the two frustra to accommodating and stabilizing the curvature transition (Fig. 1e),
+* the residual stess coming with the topolgoical defects,
+* the Van der Walls (VdW) interactions [54] between graphene surfaces.
+
+<div class="row">
+
+  <!-- **__**   -->
+</div>
+<div class="row">
+  <div class="col-12 col-lg-12">
+    {{< figure src="loc-ima/fig1.jpg" >}}
+  </div>
+  <!-- <div class="col-12 col-lg-5">
+    {{< video src="loc-video/brittle_graphene.mp4" >}}
+  </div> -->
+  <body>
+  <h1 style="text-align:center">This is a heading</h1>
+  </body>
+</div>
+<body>
+<h1 style="text-align:center">This is a heading</h1>
+</body>
 
 ## **Topological defects and curvature**
 In this project, we have been systematically exploring the potential of using topological effects to enhance the fracture toughness of graphene. We organize our toughening framework under the concept of topological design, which is defined as “taking advantages of the cooperative interactions of topological defects, e.g., disclinations, dislocations, and grain boundaries, to achieve novel mechanical and physical properties through design and fabrication of 2D lattice with controlled distribution of topological defects”. In our framework, a phase field crystal (PFC) method is adopted to generate the atomic coordinates of material with specific topological patterns. We then perform molecular dynamics (MD) simulation/phase field (PF) modelling of fracture tests to examine the fracture properties. 
