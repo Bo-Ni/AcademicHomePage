@@ -6,7 +6,7 @@ categories: []
 tags:
   - MD
   - PFC/PF
-  - metamaterial
+  - Metamaterial
   - Snap-through
   - Pseudo plasticity
 subtitle: ''
@@ -52,7 +52,7 @@ Such universal structure-to-property relationship indicates great potential in e
 </div>
 <div class="row">
   <div class="col-12 col-lg-12">
-    {{< figure src="loc-ima/Motivation_fig_resize.jpg" >}}
+    {{< figure src="loc-ima/Motivation_fig_resize.jpg" title="Fig. 1 Carbon nanolattices and multistable metamaterials" >}}
   </div>
   <!-- <div class="col-12 col-lg-5">
     {{< video src="loc-video/brittle_graphene.mp4" >}}
@@ -63,16 +63,16 @@ Such universal structure-to-property relationship indicates great potential in e
 
 Through mechanism-inspired topological design,we present a novel design of 3D graphene nanolattice that can have multiple stable states with snap-through instability and demonstrate pseudo plastic deformation and hysteresis to effectively dissipate deformation energy and tolerate crack-like flaws.<br>
 
-At macroscale, the flexible straw [43, 44] can change length by transforming between the folded state and the extended state (Fig. 1 b and c). The states are mechanically stable [45]. Here, we constructed a full-atom model of graphene counterpart to such a unit cell by taking advantage of the methodology of topological design [46-48], which includes
+At macroscale, the flexible straw [43, 44] can change length by transforming between the folded state and the extended state (Fig. 2b and 2c). The states are mechanically stable [45]. Here, we constructed a full-atom model of graphene counterpart to such a unit cell by taking advantage of the methodology of topological design [46-48], which includes
 
-* phase field crystal modeling [49-51] of growing 2D crystal on the designed geometry of the conical frustra (Fig. 1d),
+* phase field crystal modeling [49-51] of growing 2D crystal on the designed geometry of the conical frustra (Fig. 2d),
 * thermal relaxation of the obtained crystal structure via MD. 
 
 Unit cells with straw-like topology are constructed with graphene (which may be the thinnest straw).<br>
 These graphene straw unit cells can distingush from their conterpart at large scale due to
-* the presence of topological defects [46, 53], such as disclinations and dislocations, at the connections of the two frustra to accommodating and stabilizing the curvature transition (Fig. 1e),
+* the presence of topological defects [46, 53], such as disclinations and dislocations, at the connections of the two frustra to accommodating and stabilizing the curvature transition (Fig. 2e),
 * the residual stess coming with the topolgoical defects,
-* the Van der Walls (VdW) interactions [54] between graphene surfaces.
+* the Van der Waals (VdW) interactions [54] between graphene surfaces.
 
 <div class="row">
 
@@ -80,270 +80,212 @@ These graphene straw unit cells can distingush from their conterpart at large sc
 </div>
 <div class="row">
   <div class="col-12 col-lg-12">
-    {{< figure src="loc-ima/fig1.jpg" >}}
+    {{< figure src="loc-ima/fig1.jpg" title="Fig. 2 Unit cell of shell structure in flexible straws and its nanoscale graphene counterpart engineered via topological design. (a) Geometry of the unit cell structure in straws. (b-c) The fully folded and fully extended states of flexible straws. (d) Phase field crystal simulation of a 2D crystal sample growing on the designed shell surface. (e) The atomic structure of the graphene unit cell with straw-like geometry after MD relaxation and the topological defects distributed at the inner and outer folds.">}}
   </div>
   <!-- <div class="col-12 col-lg-5">
     {{< video src="loc-video/brittle_graphene.mp4" >}}
   </div> -->
-  <body>
-  <h1 style="text-align:center">This is a heading</h1>
-  </body>
 </div>
-<body>
-<h1 style="text-align:center">This is a heading</h1>
-</body>
 
-## **Topological defects and curvature**
-In this project, we have been systematically exploring the potential of using topological effects to enhance the fracture toughness of graphene. We organize our toughening framework under the concept of topological design, which is defined as “taking advantages of the cooperative interactions of topological defects, e.g., disclinations, dislocations, and grain boundaries, to achieve novel mechanical and physical properties through design and fabrication of 2D lattice with controlled distribution of topological defects”. In our framework, a phase field crystal (PFC) method is adopted to generate the atomic coordinates of material with specific topological patterns. We then perform molecular dynamics (MD) simulation/phase field (PF) modelling of fracture tests to examine the fracture properties. 
+## **Can this graphene straw snap?**
+
+By pulling the unit cell via MD, we observe the snap-through between the folded state and the extended state (Fig. 3b) and the force-strain and potential energy-strain curves (Fig. 3a). Indeed, there exists two mechanically stable states and the sample snaps between them.<br>
+
+As shown Fig. 3c and 3d, the snap-through event mainly takes place at the inner frustum (P-Q in Fig. 3b) with the outer frustum (Q-T-P in Fig. 2 b) serving as a constraint to its deformation. 
+* At the folded state, the inner frustum is already self-stressed under no external loading (Fig. 3c).
+* At the critical moment, the axial-symmetry of the deformation is broken (Fig. 3e) and the inner frustrum flips out (Fig. 3f). Compared to the folded state (Fig. 3c), the residual stress in the inner frustrum is reduced in the extended state (Fig. 3c and 3f).<br>
+
+In the following section, we combine the unit cell with different lattice designs to construct 1D and 3D graphene nanolattices and study their collective deformation behaviors, aiming at engineering effective energy dissipation by leveraging the effect of the snap-through instability.
 
 <div class="row">
 
-  **_Curved graphene with topological defects_**  
+  <!-- **__**   -->
 </div>
 <div class="row">
   <div class="col-12 col-lg-12">
-    {{< figure src="loc-ima/topo-defect.jpg" >}}
+    {{< figure src="loc-ima/fig2.jpg" title="Fig. 3 The two stress-free stable configurations of the unit cell and the process of a snap-through event. (a) The force-strain and potential energy-strain curves of the unit cell transforming from the folded state to the extended state. (b) Geometry of the two loading-free equilibrium configurations of the unit cell. The two halves of the unit cell are in the folded and extended states, respectively. (c-f) Snapshots of a snap-through event during a tension test in MD simulation. (g) 2D sketch of the deformation process of the inner frustrum during the snap-through process.">}}
   </div>
-  <!-- <div class="col-12 col-lg-6">
-    {{< video src="loc-video/fpc.mp4" width="320" height="240" >}}
+  <!-- <div class="col-12 col-lg-5">
+    {{< video src="loc-video/brittle_graphene.mp4" >}}
   </div> -->
 </div>
 
-1. Ni B, et al. "Topological design of graphene." Handbook of Graphene, Volume 2: Physics, Chemistry, and Biology (2019): 1.
+<!--=========================================================================-->
+## **1D lattice: straw-like carbon nanotubes (SCNTs)**
 
-## **Topologically designed graphene**
-With this design framework, we have generated tough graphene samples, like rebar graphene, vein-patterned graphene, nacre-liked graphene and double-folded graphene, borrowing the inspirations from engineering and nature. Various toughening mechanisms are activated to hinder crack propagation and dissipate strain energy, including crack tip blunting, crack trapping, ligament bridging, crack deflection, daughter crack initiation and coalescence, pseudo-plastic deformation and snap-through among multi-stable states. A topological toughening library linking the simple topological patterns to the effective toughening mechanisms is presented as guidance for engineering tough 2D materials.
+Straightforwardly, by repeating the unit cell along the axial direction, we obtain the 1D lattice of a straw-like CNT (SCNT). The SCNT sample can have multiple mechanically stable states with different lengths. The force-strain curve shows snap-through events with energy dissipation (Fig. 4a and 4b).<br>
 
 <div class="row">
 
-  **_Crack propagation in rebar graphene_**  
+  <!-- **__**   -->
 </div>
 <div class="row">
-  <div class="col-12 col-lg-5">
-    {{< figure src="loc-ima/rebar.jpg" >}}
+  <div class="col-12 col-lg-12">
+    {{< figure src="loc-ima/fig3.jpg" title="Fig. 4 1D lattice design: a straw-like CNT. (a) The four stress-free equilibrium configurations with different lengths. (b) Force-strain and potential energy-strain curves during transition from the fully folded stated to the fully extended state under tension via MD. (c) One unit cell compressed back to its folded state without suffering axial buckling. (d) Axial buckling of the SCNT with three unit cells under compression.">}}
   </div>
-  <div class="col-12 col-lg-7">
-    {{< video src="loc-video/rebar.mp4"  >}}
+  <!-- <div class="col-12 col-lg-5">
+    {{< video src="loc-video/brittle_graphene.mp4" >}}
+  </div> -->
+</div>
+
+However, it can be hard to transform the extended configuration back to the folded one due to global axial buckling of SCNT under compression.
+
+* With small axial length, like one unit cell, SCNT can be compressed back (Fig. 4c)
+* As the axial length increases, SCNT buckles along axial direction before snap-through can happen (Fig. 4d). This asymmetry in tension and compression limits the reconfigurability of 1D SCNT in cyclic loading. Next, we construct a 3D lattice to overcome this limitation.
+
+<!--=========================================================================-->
+
+## **3D graphene nanolattice: connected SCNT bundles**
+
+<div class="row">
+
+  <!-- **__**   -->
+</div>
+<div class="row">
+  <div class="col-12 col-lg-12">
+    {{< figure src="loc-ima/fig4.jpg" title="Fig. 5 3D design: 3D graphene nanolattice made of straw-like graphene unit cells. (a) The square lattice structure of SCNT bundles. (b) The covalently bonded connection between neighboring unit cells and topological defect distribution nearby. (c-d) The stress-strain and strain energy density-strain curves of a single unit cell under a tension-compression loop between the folded and extended states. (e-f) The stress-strain and strain energy density-strain curves of a 3D graphene nanolattice with 3-by-3-by-3 unit cells under a tension-compression loop between the folded and extended states.">}}
+  </div>
+  <!-- <div class="col-12 col-lg-5">
+    {{< video src="loc-video/brittle_graphene.mp4" >}}
+  </div> -->
+</div>
+
+3D lattices are construted as the following (Fig. 5a and 5b).
+
+* Parallel 1D SCNTs are assembled into a bundle-like architecture according to a square lattice.
+* Neighboring SCNTs are interconnected through covalent bonding
+
+MD simulations demonstrates that these 3D graphene nanolattices can snap forward and backward between the fully folded and extended states under cyclic loading without suffering global buckling or irreversible damage (See Movie M3 and M4), which makes them elastically reconfigurable.
+
+<div class="row">
+
+  **_Tension and compression paths of 3D graphene nanolattice_**  
+</div>
+<div class="row">
+  <!-- <div class="col-12 col-lg-5">
+    {{< figure src="loc-ima/rebar.jpg" >}}
+  </div> -->
+  <div class="col-12 col-lg-6">
+    {{< video src="https://bo-ni.github.io/snapping-3D-graphene/images/videos/M4_Tension_test_of_3D_nanolattice_with_90_units.mp4"  controls="yes">}}
+    <!-- {{< youtube Kiq9BKby3VM >}} -->
+  </div>
+  <div class="col-12 col-lg-6">
+    {{< video src="https://bo-ni.github.io/snapping-3D-graphene/images/videos/M5_Compression_test_of_3D_nanolattice_with_90_units.mp4" controls="yes">}}
+    <!-- {{< youtube Kiq9BKby3VM >}} -->
+  </div>
+</div>
+
+
+<!--=========================================================================-->
+
+## **Deformation modes: Single unit cell vs collective lattice**
+
+It should be noted that the number of unit cells along the axial direction can affect the deformation behavior of the 3D graphene nanolattices. In the case of one single unit cell under cyclic loading, the mechanical responses along tension and compression paths show very limited differences which means very limited energy dissipation (Fig. 5c and 5d). However, in the case of multiple unit cells, saw-teeth like stress-strain curves are observed (Fig. 5e and 5f) and the stress-strain history takes different paths under tension and compression. Correspondingly, a hysteresis loop appears and energy associated with the loop is dissipated after the cycle. Intuitively, this hysteresis behavior can be related to the snap-through instability. To systematically explain the relationship between the hysteresis behavior, snap-through instability and multi-stable configurations, a theoretical model is developed in the next section.
+
+<!--=========================================================================-->
+
+## **Theoretical model: 1D bi-stable element chain**
+
+<div class="row">
+
+  <!-- **__**   -->
+</div>
+<div class="row">
+  <div class="col-12 col-lg-12">
+    {{< figure src="loc-ima/fig5.jpg" title="Fig. 6 A theorical model of 1D chain of bi-stable elements. (a) Abstracting the graphene nanolattice with straw-like unit cell into a 1D bi-stable element chain. (b) The constitutive law of a single bi-stable element based on the MD data. (c-d) Theoretical predictions of the stable deformation branches and the paths taken under tension and compression loading on the stress-strain and strain energy density-strain curves.">}}
+  </div>
+  <!-- <div class="col-12 col-lg-5">
+    {{< video src="loc-video/brittle_graphene.mp4" >}}
+  </div> -->
+</div>
+
+We adopted a theoretical model of 1D chain of bi-stable elements to study the nanolattices (Fig. 6a) phenomenologically.<br>
+
+* The unit cell is characterized by the stress-strain curve with a spinodal region and two stress-free equilibrium configurations with different lengths and stiffnesses, Phase I and II ( Fig. 6b)
+* The unit cells are identical and connected one after another along the axial direction.
+* We define the state of the system using the numbers of elements in the Phase I, II and spinodal region respectively. Different states correspond to different load-free equilibrium configurations.
+
+Assume the deformation process is quasi-static and over-damped. By force balance and stable equlibrium condition, we can find for a given displacement-controlled loading path (Fig. 6c and 6d),
+
+* multiple deforamtion branches with different system states exits;
+* These branches often discontinous;
+* These branches have overlapping in the strain interval.
+
+By applying the condition of the continouity of loading strain, we can find the realized deformation path. The theortical model explains the observation of MD simulations. Specificly,
+
+* the discontinuity of stable deformation branches results in the saw-teeth like stress-strain curves;
+* the overlapping of stable deformation branches leads to the hysteresis loop in cyclic loading.
+
+The theoretical prediction and the MD simulations show a good agreement (Fig. 7a and 7b).
+
+<!--=========================================================================-->
+
+## **What happens when the lattice have a large number of unit cells?**
+
+Comparing the MD results, we noted that as the number of unit cell along the axial direction increases,
+
+* the amplitude of stress oscillations along tension/compression paths decreases
+* the area of hysteresis loop increases. 
+
+Based on this observation, it becomes interesting to predict
+* the asymptotic behavior of nanolattice samples with large numbers of unit cells
+* the upper bound of energy dissipation for this nanolattice design
+
+
+<div class="row">
+
+  <!-- **__**   -->
+</div>
+<div class="row">
+  <div class="col-12 col-lg-12">
+    {{< figure src="loc-ima/fig6.jpg" title="Fig. 7 Validating the theoretical model and predicting the collective behavior of nanolattice with a large number of unit cells. (a-b) MD results and theoretical predictions of stress-strain and strain energy density-strain curves of the nanolattice with 10 elements along the axial direction during a tension-compression loop. (c-d) Theorical prediction of the deformation of a nanolattice with 1000 elements along the axial direction and its comparison to that of a single bi-stable element.">}}
+  </div>
+  <!-- <div class="col-12 col-lg-5">
+    {{< video src="loc-video/brittle_graphene.mp4" >}}
+  </div> -->
+</div>
+
+By keeping increasing unit cell number in the theoretical model, we observed the deformation behavior converges to (Fig. 7c and 7d)
+
+* a pseudo plastic behavior: yield and flow happens without irriversible damage,
+* a finite hysteresis loop dissipating strain energy.
+
+With these toughening mechanisms, the energy dissipation per unit mass of graphene nanolattice for a full loop between the fully folded and extended states can approach 233 kJ/kg (One order higher than the energy absorbed by carbon steel at failure, 16 kJ/kg ).
+
+<!--=========================================================================-->
+
+## **Flaw tolerance: Loading with an edge crack**
+
+At last, we demonstrated the effect of the energy dissipation mechanisms enabled in this novel 3D graphene nanolattice on resisting crack propagation.
+
+<!-- <div class="row">
+
+  **_Tension and compression paths of 3D graphene nanolattice_**  
+</div> -->
+<div class="row">
+  <!-- <div class="col-12 col-lg-5">
+    {{< figure src="loc-ima/rebar.jpg" >}}
+  </div> -->
+  <div class="col-12 col-lg-12">
+    {{< video src="https://bo-ni.github.io/snapping-3D-graphene/images/videos/M6_Tension_test_of_nanolattice_slab_with_an_edge_crack.mp4" controls="yes">}}
     <!-- {{< youtube Kiq9BKby3VM >}} -->
   </div>
 </div>
 
 <div class="row">
 
-  **_Library of toughening mechanisms_**  
+  <!-- **__**   -->
 </div>
 <div class="row">
   <div class="col-12 col-lg-12">
-    {{< figure src="loc-ima/library.jpg" >}}
+    {{< figure src="loc-ima/fig7.jpg" title="Fig. 8 MD simulation of a tension test of a graphene nanolattice slab with an edge crack. (a) Geometry of the graphene nanolattice. (b) The overall stress-strain curve. (c) Crack trapping due to the band-like region around the crack tip transformed into the extended state via snap-through events.">}}
   </div>
-  <!-- <div class="col-12 col-lg-7">
-    {{< video src="loc-video/rebar.mp4"  >}}
+  <!-- <div class="col-12 col-lg-5">
+    {{< video src="loc-video/brittle_graphene.mp4" >}}
   </div> -->
 </div>
 
-2. Hacopian EF*, Yang Y*, Ni B* et al. "Toughening graphene by integrating carbon nanotubes." ACS nano 12.8 (2018): 7901-7910. (*contributed equally)
-3. Ni B et al. "Topological toughening of graphene" (under working)
+In the graphene nanolattice, it is observed that unit cells near the crack tip transform from the folded state into the extended one first. Correspondingly, the stress near the crack tip region is mostly released and the crack tip is trapped (Fig. 8c). As the transformation region expands through the lattice, the overall stress level also decreases (Fig. 8b) due to the reconfiguration of the nanolattice.
 
-{{< gallery album="slides" >}}
+Therefore, the graphene nanolattice with snap-through instability can tolerate crack-like flaw and behave in a ductile manner within the pseudo plastic deformation region.
 
-<!--A few weeks ago, I wrapped up teaching [tidymodels](https://www.tidymodels.org) for the third time. We say third time's the charm, right? Even during a global pandemic? I don't know, but this time around was fun in new ways and hard in new ways, so I wanted to take the time to write some thoughts down about how it went.
-
-## But why?
-
-Why teach tidymodels virtually? I've already taught it as a [2-day workshop](/project/tidyml) at rstudio::conf(2020). I had already agreed to teach intro to machine learning with tidymodels as a full-day workshop for the Cascadia R Conf (which unfortunately was cancelled due to COVID), and the [R / Medicine conference](/talk/2020-rmedicine-tidyml/) (still on, and 100% virtual!).
-
-I had three main goals: 
-
-+ First, I wanted to do a good job for the R / Medicine conference workshop in August. This seemed like an interesting teaching challenge. One of the best compliments I've ever gotten from a colleague is that I "teach with heart" &mdash; so the challenge was, can a virtual workshop have a :heart:?
-
-![](https://media.giphy.com/media/RAAEmgtmiR3Fe/giphy.gif)
-
-+ Second, given current events, I saw an opportunity to document a good system (tooling + pedagogy + logistics) around virtual workshops. I don't see them going away anytime soon. My colleague, [Greg Wilson](https://third-bit.com/), had also been giving our [RStudio certified instructor](https://education.rstudio.com/trainers/) [workshops virtually](https://drive.google.com/drive/folders/13ohFt3D0EJ5PDbMaWTxnHH-hwA7G0IvY) for over a year, so I trusted that he could help me navigate.
-
-+ Third, help out the R / Medicine conference organizers. My partner-in-crime for this particular workshop, [Dr. Stephan Kadauke](https://education.rstudio.com/trainers/people/kadauke+stephan/), wanted to join me for some reconnaissance work. He is one of the conference organizers and will be leading his own workshop there, so he wanted to test out the tooling and the pedagogy too. 
-
-So we thought, three birds, one stone: I get to pilot a much shorter version of my conf workshop materials, we get to test doing it virtually, and the R / Medicine conference organizers learn how this could all work in August.  
-
-![](https://media.giphy.com/media/oVP8LBbOv57S8/giphy.gif)
-
-
-
-## How we planned it
-
-Starting out, I knew I had two main hurdles:
-
-+ Shaving two days of workshop content into `X` days
-+ Logistics (like figuring out what `X` should be!)
-
-The first decision based on conversations with Greg was to offer the workshop across two half-days. This is how the RStudio instructor training is timed, and it works well because there are few people who can (or want to) be tied up for a full day, especially if under stay-at-home orders. We asked Stephan if his group at the [Children's Hospital of Philadelphia (CHOP)](https://www.chop.edu/) would be up for two 4-hour sessions. Stephan's feedback was yes, but given that these folks at CHOP typically have weekly schedules, having two consecutive days would not work. So we opted for:
-
-+ Two 4-hour sessions that were... 
-+ exactly one week apart. 
-
-I'm in Oregon, they were in Philly, so we decided to start at 9am my time (1pm for them) and wrap up at 1pm my time (5pm for them). After making this call, and again with Greg's sage advice to [take a break every hour](https://education.rstudio.com/blog/2020/03/teaching-online-on-short-notice/), I started working on a rough schedule. I had about 8 hours total to work with; about half of my conf workshop. We decided on:
-
-+ 50 minute chunks, and
-+ 10 minute breaks at 10 till the hour every single hour. 
-
-I didn't try to make sure my materials for each session filled exactly 50 minutes. Instead, I promised the group that I would break wherever I was at the same time, and after each break we just picked up where left off. 
-
-Here was the new topic outline:
-
-### Day 1
-
-1. [Session 00:](https://tmv.netlify.app/slides/00-intro) Intro (include a tooling tour- orient to Google doc + Zoom)
-1. [Session 01:](https://tmv.netlify.app/slides/01-model) Build a model (mainly parsnip package)
-1. [Session 02:](https://tmv.netlify.app/slides/02-resample) Resample a model (add rsample package, plus tune package for `fit_resamples()`)
-1. [Session 03:](https://tmv.netlify.app/slides/03-recipes) Build a better training set (add recipes and workflows packages)
-
-### Day 2
-
-1. [Session 04:](https://tmv.netlify.app/slides/04-ensemble) Build an ensemble model (back to parsnip, now with model arguments)
-1. [Session 05:](https://tmv.netlify.app/slides/05-tune) Tune a model (heavy tune package)
-1. [Session 06:](https://tmv.netlify.app/slides/06-case-study) The Great Model-Off (a Kaggle-like group activity)
-
-The final decision was about tooling. Luckily, Greg had advice here too. We went with:
-
-+ Google doc as the "home page" + chat (no workshop website!)
-+ RStudio Cloud for all exercises
-+ Zoom for video 
-
-
-
-## Pre-workshop launch list
-
-+ Make shared Google doc and prepopulate with: Zoom link, RStudio Cloud link, bulleted list of participant names (be sure to make this *editable* for anyone!)
-+ Email everyone with a Google calendar invite that includes the Zoom link and a link to a shared Google doc (be sure to make this *editable* for anyone!)
-+ Ask everyone to fill in their 2-sentence bios ahead of time to ensure that you've done this correctly! 
-
-The Zoom link and the Google doc link should be the **only** links that attendees see ahead of time. Then, the Google doc is the one true source for everything. Too many links at first leads to confusion later. I also prepopulated the doc with my session outline with HTML links to each session's slide deck. 
-
-## Actual launch
-
-In Zoom, I set it up to [mute everyone](https://support.zoom.us/hc/en-us/articles/203435537-Mute-All-And-Unmute-All) as they joined. We started with an [orientation](https://tmv.netlify.app/slides/00-intro) of the tools, the schedule, and the general plan for how they would work and interact with each other. We tried to keep questions per session in the Google doc, which my TA Stephan fielded in real time, which now is a great resource for me as I prepare for this again in August.
-
-What I should have done: 
-
-+ Have a Code of Conduct. I will next time. We didn't have any issues, but what came up later was that I asked participants to turn on their cameras. I wished that part of my Code of Conduct was that we would not videotape or take screenshots at any point to protect the privacy of all participants. 
-+ Asked folks to make sure they had an updated version of Zoom. In particular, some newer security issues have been addressed recently, so this is nice for everyone to take advantage of. Plus the interface looked different for some.
-+ Locked down the Zoom room. After a few minutes of starting, it was super distracting to have late arrivals who kept sending me personal chats asking for the links. 
-+ In addition to locking down after the first 10-15 minutes, I also should have assigned my TA as a [co-host](https://support.zoom.us/hc/en-us/articles/206330935-Enabling-and-adding-a-co-host), so that he could have helped me manage that. We did this on day 2 and it worked great.
-
-## How did it go?
-
-So, I'm not going to lie here. The first session of teaching spooked me a bit. This was because all attendees left their videos off and I felt like:
-
-![](https://media.giphy.com/media/AEMyf9Oj6MpS8/giphy.gif)
-
-It was eerie to teach to a silent void. On day 2, I asked for two volunteers to turn on their cameras for a single 50 minute block each because it really helped me to see faces. Participants probably kept their own view as "speaker only", but for me it really helped to be able to have some human feedback, even if they were muted. Much love to the head nodders out there. This conversation on day 2 broke my heart though, because several participants indicated they felt they couldn't turn on their cameras because they had young children at home. It is **hard**.
-
-Interestingly, the participants didn't sense my discomfort at all. In fact, I heard from several that it was nice to see me up close and so personal. It actually felt *more personal* than a large in-person workshop, to my surprise.
-
-On day 1, I started by asking participants to use Zoom reactions (like thumbs up) to answer questions, give me progress updates, etc. I ended up retiring this- it was distracting and the reactions disappear so it wasn't actually useful. Instead, I asked people to use the Zoom chat to indicate "done" or give quick one-word answers (a or b, yes or no).
-
-Stephan also had a great idea for the breaks. On day 2, I started using Garrick Aden-Buie's [countdown app](https://pkg.garrickadenbuie.com/countdown/#29) to show the 10 minute break countdown full-screen. I used the hosted version [here](https://apps.garrickadenbuie.com/countdown/).
-
-
-## What can I do better?
-
-Logistically, I got really frustrated because I kept losing my Zoom meeting controls. Later I found out about this accessibility setting, which would have helped!
-
-![](zoom-controls.png)
-
-More substantively, as I mentioned, I would have a Code of Conduct at the very beginning. I also think virtual workshops offer a unique opportunity to include some more creative exercise types. Here are a few I brainstormed with Greg Wilson after the fact&mdash;expect to see these at R / Medicine if you attend with me!
-
-+ Spot the bug- do in groups
-
-+ Unscramble code
-
-+ Predict what is going to happen
-
-+ Fill in the blank with the [flair package](https://education.rstudio.com/blog/2020/05/flair/#example-3--mask-code-for-easy-practice-activities)
-
-
-
-![](https://media.giphy.com/media/13eay0HFG25jy0/giphy.gif)
-
-## Verdict
-
-Transitioning from primarily teaching in person to teaching virtually is *hard*, and I'm in awe of [all the instructors](https://education.rstudio.com/blog/2020/05/remote-roundup/) I know who have had to do this on very short notice. But, can it be done with heart? Yes, I think so :heart:
-
-![](https://media.giphy.com/media/v9tIehXauaCbK/giphy.gif)
-
-## Thanks
-
-Thanks to the participants, who were the loveliest guinea pigs. It is a hard time to learn and a hard time to find time. I appreciate that you took time out of your lives to spend 8 hours with me.
-
-Thanks also to [Greg Wilson](https://third-bit.com/) for his support, and [Stephan Kadauke](https://www.chop.edu/doctors/kadauke-stephan) for being an awesome co-pilot. Extra special thanks to [Desirée De Leon](https://desiree.rbind.io/), who has the biggest heart of all. Knowing that I didn't have time for creativity with my slides, she surprised me with the most beautiful xaringan slide deck theme based on [tidymodels.org](https://www.tidymodels.org/). I merged in her PR *with glee and delight*, I know the participants felt those same emotions too (while learning about machine learning, no less!) :blossom:
-
-{{< gallery album="slides" >}}
-
-
-## Feedback
-
-If you are curious, here is some of the feedback I collected at the bottom of our Google doc:
-
-### Two half days?
-- worked well for me. A full day would be tough.
-- Worked well for me also and I also think having all in one day would be a lot.
-- worked well. 
-- worked well for me too.
-
-### Separated by one week?
-- seemed fine.
-- I liked this!
-- good. Enough time to digest the previous session
-- yes.
-
-### Pace: too fast, too slow?
-- good pace
-- I liked the pace. It felt like we covered a lot of ground quickly, but also like we have great resources to come back to for refreshing on what we learned.
-- good pace, except at “data leakage”. I still have hard time to understand that part.
-- good pace.
-
-### Scope: too small, too big?
-- nice scope
-- Nice scope
-- very nice and practical.
-- nice scope.
-
-### Timing in 50 min chunks: too many or too few breaks?
-- The 50 min chunks were great! I thought perfect length.
-- Perfect break up. And the 10 min breaks gave enough time to make tea, grab a snack, etc.
-- I am fine with that.
-- works well.
-
-### Timed code exercises: too easy, too hard?
-- good
-- Neither, I thought they were appropriate
-- good. 
-- good.
-
-### In-between homework/reading?
-- maybe some light reading or practice 
-- In theory I think I would have liked some ‘homework’, but the week turned out to be so busy that I don’t know if I would’ve made time to complete it before the workshop.
-- will be helpful to give some reading about different model descriptions in-between. 
-
-### Final take-home project (+/- feedback)?
-- optional
-- I think this could be fun if we had access to a few different datasets to choose from. With maybe some pointers on what to look out for as we explore the data. Is it unbalanced? Could any two variables be collinear? Etc.
-- i would vote for take-home project to play with.
-
-### Zoom: video on/off?
-- I find video distracting while working/listening/learning.
-- I like being able to see the presenter/speaker’s video. I tend to choose “Speaker View” so that I don’t see all the participant videos (which I would find distracting).
-- i am fine with either. I know, from the speaker’s perspective, it will be good to have video on. 
-- I think it was nice and respectful to ask volunteers to turn video on part time! (Kudos to Stephan for having it on the whole time!)
-
-### Google doc as our “home page” and “discussion forum”?
-- Great!
-- Yes! I thought it was a really helpful tool and ‘homebase’ to come to for all of the things (slides, R Studio Cloud project, etc.)
-- very good! Much easier to track.
-- works!
-
-### Rstudio.cloud?
-
-- pretty good except for crashing at end.
-- ditto.
-- I really enjoyed using R Studio Cloud. It makes it easier when I don’t have to worry about pre-installing packages or updating my version of R in order to go into a workshop. Having everything already set up for you in there is super convenient.
-- I like Rstudio cloud generally. Just not suitable for complicated model training.-->
