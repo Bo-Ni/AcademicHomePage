@@ -4,13 +4,14 @@ author: Bo Ni
 date: '2020-06-04'
 categories: []
 tags:
-  - MD
-  - PFC/PF
+  - 2D material
   - Metamaterial
   - Snap-through
   - Pseudo plasticity
+  - MD
+  - PFC/PF
 subtitle: ''
-summary: '3D architectured graphene nanolattice has open doors to integrate superior mechanical propeties, including specififc strength, stiffness and deformability. In this project, the energy dissipation in graphene nanolattice is enhanced via a novel design with snap-through instability. We have constructed a group of reconfigurable graphene nanolattices based on a straw-like unit design. Combining molecular dynamics and theoretical model, pseudo plasticity and hysteresis of the nanolattices are demonstrated and explained. With these novel toughening mechanisms, the designed graphene nanolattice is predicted to be tolerant of crack-like flaw and dissipate energy better than carbon steel.'
+summary: '3D architectured graphene nanolattice has open doors to integrate superior mechanical propeties, including specififc strength, stiffness and deformability. In this project, the energy dissipation in graphene nanolattice is enhanced via a novel design with <strong>snap-through instability</strong>. We have constructed a group of <strong>reconfigurable</strong> graphene nanolattices based on a straw-like unit design. Combining molecular dynamics and theoretical model, <strong>pseudo plasticity</strong> and <strong>hysteresis</strong> of the nanolattices are demonstrated and explained. With these novel toughening mechanisms, the designed graphene nanolattice is predicted to be tolerant of crack-like flaw and dissipate energy better than carbon steel.'
 authors: []
 featured: no
 disable_jquery: no
@@ -27,22 +28,22 @@ gallery_item:
 
 ##  **Carbon nanolattices: optimized lattices with ultra strong constituents**
 
-Carbon micro/nano lattices are a unique family of architected metamaterials constructed from micro/nano-scale carbon constituents [1]. During the past few years, they have demonstrated exciting potentials in reaching theoretical limits of mechanical performances as well as integrating properties which are often mutually exclusive through experimental studies and numerical simulations [2-8]. The combination of small-scale carbon constituents and unlimited architecture designs of lattice opens a broad exploration space for better material properties in carbon nanolattices.
+Carbon micro/nano lattices are a unique family of architected metamaterials constructed from micro/nano-scale carbon constituents [[1]](https://bo-ni.github.io/snapping-3D-graphene/References/). During the past few years, they have demonstrated exciting potentials in reaching theoretical limits of mechanical performances as well as integrating properties which are often mutually exclusive through experimental studies and numerical simulations [[2-8]](https://bo-ni.github.io/snapping-3D-graphene/References/). The combination of small-scale carbon constituents and unlimited architecture designs of lattice opens a broad exploration space for better material properties in carbon nanolattices.
 
 ## **For 3D graphene, ductility matters**
 
-Besides pursuing high specific strength, ductility is also particularly important to carbon nanolattices for robust performances [7].
+Besides pursuing high specific strength, ductility is also particularly important to carbon nanolattices for robust performances [[7]](https://bo-ni.github.io/snapping-3D-graphene/References/).
 
-* At the material level, the carbon constituents, most made of graphene, are strong but intrinsically brittle [14]. To make use of the ultrahigh strength of graphene, it is also important to enhance the toughness and ductility.
-* At the structure level, buckling is an important mechanism to dissipate energy in nanolattice materials under compression [16-18]. However, permanent and continuous damage often accompanies buckling events. Under tensile loading, buckling can have much limited effect on energy dissipation [4, 5].
+* At the material level, the carbon constituents, most made of graphene, are strong but intrinsically brittle [[14]](https://bo-ni.github.io/snapping-3D-graphene/References/). To make use of the ultrahigh strength of graphene, it is also important to enhance the toughness and ductility.
+* At the structure level, buckling is an important mechanism to dissipate energy in nanolattice materials under compression [[16-18]](https://bo-ni.github.io/snapping-3D-graphene/References/). However, permanent and continuous damage often accompanies buckling events. Under tensile loading, buckling can have much limited effect on energy dissipation [4, 5].
 Given the great potentials of carbon nanomaterials, it is important to enrich the design library of carbon nanolattices with examples of novel energy dissipation mechanisms in order to overcome this challenge.
 
 ## **Snap-through instability: marco and micro scales**
 
-Like buckling, snap-through instability has been a long-time research topic [22-29]. Recent studies unveil some unique advantages of this instability.
+Like buckling, snap-through instability has been a long-time research topic [[22-29]](https://bo-ni.github.io/snapping-3D-graphene/References/). Recent studies unveil some unique advantages of this instability.
 
-* On one hand, at macro-scale, sequential snap-through instabilities can be triggered under compressive and tensile loading conditions [25, 28] with little irriversibkle damage [28]. Metamaterials with snap-through instability often exhibit multiple mechanically stable states, which open doors to the design of shape-reconfigurable materials (SRMs) [25].
-* On the other hand, at small scales, basic conceptual units with mechanically bi-stable states and snap-through instability [30-33] have been adopted to explain deformation behaviors of phase transforming materials, including structure proteins with compactly folded or unfolded domains [34, 35] and shape memory alloys undergoing martensitic phase transformation [36].
+* On one hand, at macro-scale, sequential snap-through instabilities can be triggered under compressive and tensile loading conditions [[25, 28]](https://bo-ni.github.io/snapping-3D-graphene/References/) with little irriversibkle damage [[28]](https://bo-ni.github.io/snapping-3D-graphene/References/). Metamaterials with snap-through instability often exhibit multiple mechanically stable states, which open doors to the design of shape-reconfigurable materials (SRMs) [[25]](https://bo-ni.github.io/snapping-3D-graphene/References/).
+* On the other hand, at small scales, basic conceptual units with mechanically bi-stable states and snap-through instability [[30-33]](https://bo-ni.github.io/snapping-3D-graphene/References/) have been adopted to explain deformation behaviors of phase transforming materials, including structure proteins with compactly folded or unfolded domains [[34, 35]](https://bo-ni.github.io/snapping-3D-graphene/References/) and shape memory alloys undergoing martensitic phase transformation [[36]](https://bo-ni.github.io/snapping-3D-graphene/References/).
 
 Such universal structure-to-property relationship indicates great potential in engineering complex overall deformation behavior via bi-stable units and snap-through instabilities.
 
@@ -63,16 +64,16 @@ Such universal structure-to-property relationship indicates great potential in e
 
 Through mechanism-inspired topological design,we present a novel design of 3D graphene nanolattice that can have multiple stable states with snap-through instability and demonstrate pseudo plastic deformation and hysteresis to effectively dissipate deformation energy and tolerate crack-like flaws.<br>
 
-At macroscale, the flexible straw [43, 44] can change length by transforming between the folded state and the extended state (Fig. 2b and 2c). The states are mechanically stable [45]. Here, we constructed a full-atom model of graphene counterpart to such a unit cell by taking advantage of the methodology of topological design [46-48], which includes
+At macroscale, the flexible straw [[43, 44]](https://bo-ni.github.io/snapping-3D-graphene/References/) can change length by transforming between the folded state and the extended state (Fig. 2b and 2c). The states are mechanically stable [[45]](https://bo-ni.github.io/snapping-3D-graphene/References/). Here, we constructed a full-atom model of graphene counterpart to such a unit cell by taking advantage of the methodology of topological design [[46-48]](https://bo-ni.github.io/snapping-3D-graphene/References/), which includes
 
-* phase field crystal modeling [49-51] of growing 2D crystal on the designed geometry of the conical frustra (Fig. 2d),
+* phase field crystal modeling [[49-51]](https://bo-ni.github.io/snapping-3D-graphene/References/) of growing 2D crystal on the designed geometry of the conical frustra (Fig. 2d),
 * thermal relaxation of the obtained crystal structure via MD. 
 
 Unit cells with straw-like topology are constructed with graphene (which may be the thinnest straw).<br>
 These graphene straw unit cells can distingush from their conterpart at large scale due to
 * the presence of topological defects [46, 53], such as disclinations and dislocations, at the connections of the two frustra to accommodating and stabilizing the curvature transition (Fig. 2e),
 * the residual stess coming with the topolgoical defects,
-* the Van der Waals (VdW) interactions [54] between graphene surfaces.
+* the Van der Waals (VdW) interactions [[54]](https://bo-ni.github.io/snapping-3D-graphene/References/) between graphene surfaces.
 
 <div class="row">
 
@@ -289,3 +290,4 @@ In the graphene nanolattice, it is observed that unit cells near the crack tip t
 
 Therefore, the graphene nanolattice with snap-through instability can tolerate crack-like flaw and behave in a ductile manner within the pseudo plastic deformation region.
 
+1. Ni B, Gao H. Engineer Energy Dissipation in 3D Graphene Nanolattice Via Reversible Snap-Through Instability. Journal of Applied Mechanics. 2020 Mar 1;87(3).

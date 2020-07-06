@@ -4,12 +4,13 @@ author: Bo Ni
 date: '2020-06-03'
 categories: []
 tags:
+  - 2D materials
   - DFT
   - MD
   - PFC/PF
   - Inverse design
 subtitle: ''
-summary: 'Fracture has been a grave concern for practical applications of graphene other atomically thin and brittle crystalline materials. In this NSF awarded project, we have been systematically exploring the potential of using topological effects to enhance the fracture toughness of graphene. By designing topological defect distribution and controlling the out-of-plane curvature, we numerically demonstrate that various toughening mechanisms can be activated, including crack tip blunting, crack trapping, ligament bridging, crack deflection, daughter crack initiation and coalescence, pseudo-plastic deformation as well as snap-through among multi-stable states, and toughen graphene and related 2D materials effectively.'
+summary: 'Fracture has been a grave concern for practical applications of graphene other atomically thin and brittle crystalline materials. In this NSF awarded project, we have been systematically exploring the potential of using <strong>topological effects</strong> to enhance the fracture toughness of graphene. By designing topological defect distribution and controlling the out-of-plane curvature, we numerically demonstrate that various <strong>toughening mechanisms</strong> can be activated, including crack tip blunting, crack trapping, ligament bridging, crack deflection, daughter crack initiation and coalescence, pseudo-plastic deformation as well as snap-through among multi-stable states, and toughen graphene and related 2D materials effectively.'
 authors: []
 featured: no
 disable_jquery: no
