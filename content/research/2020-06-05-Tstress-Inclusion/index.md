@@ -163,6 +163,7 @@ Under a tensile applied T-stress,
 Under a large enough compressive applied T-stress,
 
 * Hard/soft inclusion tends to attract/repel the crack
+
 * The conventional trend of crack-inclusion interaction is reversed.
 
 <div class="row">
@@ -195,12 +196,12 @@ To demonstrate the effect of T-stress on the propagation process of the crack, w
 </div>
 
 ## Take-home message:
-* Under tensile applied T-stress, the effect of inclusion on crack tip can be amplified.
+* Under a **tensile** applied T-stress, the effect of inclusion on crack tip can be **amplified**.
 
-* Under strong enough compressive applied T-stress, the effect of inclusion on crack tip can be reversed, i.e., soft inclusion can repel crack while hard inclusion can attract crack. <br>
+* Under a strong enough **compressive** applied T-stress, the effect of inclusion on crack tip can be **reversed**, i.e., soft inclusion can repel crack while hard inclusion can attract crack. <br>
 It explains the failure in some lithiumion batteries. Lithium intercalation into high capacity active materials such as silicon can induce substantial compressive stress in the electrodes. Thus, cracks propagating in the matrix would be attracted towards the stiff active particles, which could further induce capacity fade through the detachment of the activematerial particles from the conductive matrix.
 
-* Applied T-stress provides an novel way to tune crack-inclusion interaction in composite materials and systems. <br>
+* Applied T-stress provides an novel way to **tune** crack-inclusion interaction in composite materials and systems. <br>
 For instance, high compressive T -stress for hydraulic fractures might cause repulsion between the pores and induced cracks. Due to the gravity effect, underground shales undergo a triaxial differential compressive loading and the major compressive principle stress is usually along the vertical direction, so horizontal hydraulic fractures are likely to provide higher gas production by passing through more rock pores in comparison with vertical fractures.<br>
 
 More detailes can be found in the following publication.<br>
