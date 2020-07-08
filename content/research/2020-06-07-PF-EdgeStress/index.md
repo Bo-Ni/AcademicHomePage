@@ -1,5 +1,5 @@
 ---
-title: Crack propagation under lattice asymmetry in h-BN
+title: Crack propagation with lattice asymmetry in h-BN
 author: Bo Ni
 date: '2020-06-07'
 categories: []
@@ -11,7 +11,7 @@ tags:
   - Phase field
   - LEFM
 subtitle: ''
-summary: 'Recent experimental measurements have discovered the fracture toughness of monolayer h-BN is much large than its intrinsic surface energy and based on DFT calculations toughening mechanisms of <strong>crack tip bifurcation</strong> and <strong>edge swapping</strong> due to the lattice asymmetry have been proposed. In this study, combining <strong>theoretical analysis</strong> and <strong>phase field (PF) modeling</strong>, we study the effect of the polarized edge stress and anisotropic fracture energy on the fracture of h-BN. It is found that polarized edge stress can contribute a mode II stress intensity factor (SIF) travelling with the crack tip and the competing of local lattice asymmetry and gloabl extrenal loading can result in a zigzag crack path with swaping branches.'
+summary: 'Recent experimental measurements have discovered the fracture toughness of monolayer h-BN is much large than its intrinsic surface energy and based on DFT calculations toughening mechanisms of <strong>crack tip bifurcation</strong> and <strong>edge swapping</strong> due to the lattice asymmetry have been proposed. In this study, combining <strong>theoretical analysis</strong> and <strong>phase field (PF) modeling</strong>, we study the effect of the polarized edge stress and anisotropic fracture energy on the fracture of h-BN. It is found that polarized edge stress can contribute a mode II stress intensity factor (SIF) travelling with the crack tip and the competition between local lattice asymmetry and gloabl extrenal loading can result in a zigzag crack path with swaping branches.'
 authors: []
 featured: no
 disable_jquery: no
@@ -117,13 +117,13 @@ By including surface layers with asymmetric surface stress and surface elastic m
 
 The nontrivial the mode II SIF under the presence of asymmetric surface stress indicate that the crack has a tendency to deflect away from its original direction, which is indeed predicted in DFT calculations. Also, this mode II SIF come from the crack surface right behind the crack tip and will always travel with the crack tip. Combining the asymmetry of h-BN lattices, as the crack deflects aways from the orignal path, the chemical components of the upper and lower crack surfaces will switch, correspondly the surface stress and sign of the extra mode II SIF. This automatic switch make the crack path swapping possible.
 
-## **Crack in action: PF model with fracture anisotropy and asymmertic surface stress**
+## **Crack in action: PF model with fracture anisotropy and asymmetric surface stress**
 
 To study the crack propagation under such asymmetric lattice geometry, we adopt a Phase Field framework. For the specific lattice and surface stress in h-BN, we extend the PF model by including 
 * an fracture energy/fracture driving force with hexagonal anisotropy
 * an new surface phase tracing the crack and providing asymmeteric surface stress.
 
-With an anisotropic fracture driving force and asymmertic surface stress, the crack can switches between different preferred orientation. And the leading crack tip will shield other slower crack branches.
+With an anisotropic fracture driving force and asymmetric surface stress, the crack can switches between different preferred orientation. And the leading crack tip will shield other slower crack branches.
 
 <div class="row">
 
