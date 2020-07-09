@@ -130,13 +130,13 @@ top layer and the strength failure of the bottom layer as the two layers can "co
 </div>
 <div class="row">
   <div class="col-12 col-lg-6">
-    Top layer, sigam_22
+    Top layer, sigma_22
     {{< video src="loc-video/s22_top.mp4" >}}
     Top layer, interlayer shear_22
     {{< video src="loc-video/t22_top.mp4" >}}
   </div>
   <div class="col-12 col-lg-6">
-    Bottom layer, sigam_22
+    Bottom layer, sigma_22
     {{< video src="loc-video/s22_bot.mp4" >}}
     Bottom layer, interlayer shear_22
     {{< video src="loc-video/t22_bot.mp4" >}}
@@ -149,13 +149,13 @@ top layer and the strength failure of the bottom layer as the two layers can "co
 </div>
 <div class="row">
   <div class="col-12 col-lg-6">
-    Top layer, sigam_22
+    Top layer, sigma_22
     {{< video src="loc-video/job_3_top_layer_s22.mp4" >}}
     Top layer, interlayer shear_22
     {{< video src="loc-video/job_3_top_layer_t2.mp4" >}}
   </div>
   <div class="col-12 col-lg-6">
-    Bottom layer, sigam_22
+    Bottom layer, sigma_22
     {{< video src="loc-video/job_3_bot_layer_s22.mp4" >}}
     Bottom layer, interlayer shear_22
     {{< video src="loc-video/job_3_bot_layer_t2.mp4" >}}

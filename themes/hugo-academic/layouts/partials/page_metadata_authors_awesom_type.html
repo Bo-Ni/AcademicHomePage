@@ -1,0 +1,33 @@
+{{/* Display author list. */}}
+
+{{- $taxonomy := "authors" }}
+{{- $typelist := "authortype" -}}
+{{ with .Param $taxonomy }}
+  {{ $link_authors := site.Params.link_authors | default true }}
+  {{ range $index, $name_raw := . }}
+    
+    {{- $profile_page := site.GetPage (printf "/%s/%s" $taxonomy .) -}}
+    {{- $name := $profile_page.Title | default $name_raw -}}
+    {{- if gt $index 0 }}, {{ end -}}
+    <span>
+      <!-- {{$index}}
+      {{- $.Params.firstauthors  -}} -->
+      {{- if and $profile_page $link_authors -}}
+        <a href="{{$profile_page.RelPermalink}}"><b>{{$name}}</b></a>
+      {{- else -}}
+        {{$name}}
+      {{- end -}}
+      {{- if gt $.Params.firstauthors $index -}}
+        <b>*</b>
+      {{- end -}}
+      <!-- {{- if eq $name "Bo Ni" -}}
+        <a href="{{$profile_page.RelPermalink}}"><b>{{$name}}</b></a>
+      {{- else if eq $name "Bo Ni*" -}}
+        {{$profile_page.RelPermalink}}
+        <a href="{{$profile_page.RelPermalink}}"><b>{{$name}}</b></a>
+      {{- else -}}
+        {{$name}}
+      {{- end -}} -->
+    </span>
+  {{- end -}}
+{{- end -}}

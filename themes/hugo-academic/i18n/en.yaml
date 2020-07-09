@@ -54,6 +54,9 @@
 - id: btn_cite
   translation: Cite
 
+- id: btn_doi
+  translation: DOI
+
 - id: btn_slides
   translation: Slides
 

@@ -11,6 +11,27 @@
     <p class="pub-abstract">{{ .Params.abstract | markdownify }}</p>
     {{ end }}
 
+    <!--add pic here if possible-->
+    {{ $jpg := "" }}
+    {{ $resource := .Resources.GetMatch (printf "%s.jpg" .File.ContentBaseName) }}
+    {{$resource}}
+    {{ with $resource }}
+      {{ $jpg = .RelPermalink }}
+      end
+    {{ else }}
+      {{ if .Params.gra_abs }}
+        {{ $jpg = .Params.gra_abs| relURL }}
+      {{ end }}
+    {{ end }}
+
+    {{ if .Params.gra_abs }}
+      <p style="text-align:center;">
+        <!-- <img src= {{ .Params.gra_abs }} alt=""> -->
+        <img src= {{ $jpg }} alt="">
+      </p>
+    {{ end }}
+    <!--add pic here if possible-->
+
     {{ if and (.Params.publication_types) (ne (index .Params.publication_types 0) "0") }}
     <div class="row">
       <div class="col-md-1"></div>

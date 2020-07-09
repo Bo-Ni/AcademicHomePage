@@ -52,6 +52,9 @@
 - id: btn_code
   translation: 代码
 
+- id: btn_doi
+  translation: DOI
+
 - id: btn_dataset
   translation: 数据集
 

@@ -23,7 +23,7 @@
     {{ $pdf = $page.Params.url_pdf | relURL }}
   {{ end }}
 {{ end }}
-
+<!--pdf-->
 {{ with $pdf }}
 <a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ . }}" target="_blank" rel="noopener">
   {{ i18n "btn_pdf" }}
@@ -36,6 +36,7 @@
   {{ i18n "btn_cite" }}
 </button>
 {{ end }}
+<!--code-->
 {{ with $page.Params.url_code }}
   {{ $resource := $page.Resources.GetMatch . }}
   {{ if $resource }}
@@ -47,6 +48,19 @@
   {{ i18n "btn_code" }}
 </a>
 {{ end }}
+<!--add: doi-->
+{{ with $page.Params.url_doi }}
+  {{ $resource := $page.Resources.GetMatch . }}
+  {{ if $resource }}
+    {{ $link = $resource.RelPermalink }}
+  {{ else }}
+    {{ $link = . | relURL }}
+  {{ end }}
+<a class="btn btn-outline-primary my-1 mr-1{{ if $is_list }} btn-sm{{end}}" href="{{ $link }}" target="_blank" rel="noopener">
+  {{ i18n "btn_doi" }}
+</a>
+{{ end }}
+<!--dataset-->
 {{ with $page.Params.url_dataset }}
   {{ $resource := $page.Resources.GetMatch . }}
   {{ if $resource }}
