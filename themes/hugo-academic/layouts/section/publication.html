@@ -46,7 +46,7 @@
           </select>
         </div>
       </div>
-
+      check1
       <div id="container-publications">
         {{ range .Pages.ByDate.Reverse }}
 
@@ -55,7 +55,7 @@
         {{ else }}
           {{ $.Scratch.Set "pubtype" 0 }}
         {{ end }}
-
+        
         <div class="grid-sizer col-lg-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }} year-{{ .Date.Format "2006" }}">
           {{ if eq $.Params.view 1 }}
             {{ partial "li_list" . }}
