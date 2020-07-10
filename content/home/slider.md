@@ -7,7 +7,7 @@ weight = 60  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = false
+interval = 5000 # false
 
 # Slide height (optional).
 # E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
@@ -46,7 +46,7 @@ height = "325px"
   
 [[item]]
   title = ""
-  content = "\"Let's use instability to dissipate energy in 3D nanolattice!\""
+  content = "\"Can instability do good in 3D nanolattice?\""
   align = "center"
 
   overlay_color = "#404040"  # An HTML color value.
@@ -88,7 +88,7 @@ height = "325px"
   
 [[item]]
   title = ""
-  content = "\"A dance between crack, inclusion and T-stress, how can the plot be?\""
+  content = "\"A tale between crack, inclusion and T-stress, how can the plot be?\""
   align = "center"
 
   overlay_color = "#404040"  # An HTML color value.
