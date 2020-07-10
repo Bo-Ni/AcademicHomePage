@@ -160,5 +160,5 @@ More detailes can be found in the following publication.<br>
 
 Yang Y, Song Z, Lu G, Zhang Q, **Ni B**, Wang Chao, Li X, Gu L, Xie X, Gao H and Lou J. Lattice asymmetry induced intrinsic toughening and stable crack propagation in monolayer h-BN. (Under review)
 
-**Ni B**, Gao H. Phase field modeling of crack propagation under asymmetric surface stress. (Under working)
+**Ni B**, Song Z, Gao H. Phase field modeling of crack propagation under asymmetric surface stress. (Under working)
 

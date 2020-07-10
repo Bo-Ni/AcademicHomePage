@@ -9,29 +9,29 @@
   weight = 10
 
 [[main]]
-  name = "Publication"
-  url = "/publication"
-  weight = 20
-
-[[main]]
   name = "Publications"
   url = "/publications"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Talks"
   url = "/talks"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "About"
   url = "/about"
-  weight = 50
+  weight = 40
 # ------------------------------------------------------------------------------------
 # [[main]]
 #   name = "About"
 #   url = "/about"
 #   weight = 10
+
+# [[main]]
+#   name = "Publication"
+#   url = "/publication"
+#   weight = 20
 
 # [[main]]
 #   name = "Research"
