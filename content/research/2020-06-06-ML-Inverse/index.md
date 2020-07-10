@@ -174,7 +174,7 @@ The DL approach broadens the way of addressing challenging inverse problems in r
 
 More detailes can be found in the following publication.<br>
 
-Ni B, Gao H. A deep learning approach to the inverse problem of modulus identification in elasticity. MRS bulletin.(Under review)
+Ni B, Gao H. <a href="https://bo-ni.netlify.app/publication/2020-preprint-mrs-inverseproblem/">A deep learning approach to the inverse problem of modulus identification in elasticity.</a> MRS bulletin.(Under review)
 
 ### References:
 1.	M. Rodríguez-Sastre, L. Calleja, The determination of elastic modulus of slates from ultrasonic velocity measurements. The Geological Society of London. IAEG 775, 1-11 (2006).

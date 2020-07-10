@@ -206,7 +206,7 @@ For instance, high compressive T -stress for hydraulic fractures might cause rep
 
 More detailes can be found in the following publication.<br>
 
-Guo K*, Ni B*, Gao H. Tuning crack-inclusion interaction with an applied T-stress. International Journal of Fracture. 2020 Feb 3:1-1. (* contributed equally)
+Guo K*, Ni B*, Gao H. <a href="https://bo-ni.netlify.app/publication/2020-ijf-tstress/">Tuning crack-inclusion interaction with an applied T-stress.</a> International Journal of Fracture. 2020 Feb 3:1-1. (* contributed equally)
 
 ### References:
 1. R. O. Ritchie, Acta Materialia 148, 147 (2018). 

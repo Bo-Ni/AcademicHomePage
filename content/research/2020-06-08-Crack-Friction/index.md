@@ -210,6 +210,6 @@ For cracks with dissimilar paths, we find there exist critical distance determin
 
 More detailes and related discussion can be found in the following publication.<br>
 
-**Ni B**, Gao H. Harness the Power of Fracture: Controlled Fragmentation of Graphene via Substrate Necking. Matter. 2020 Mar 4;2(3):521-4.
+**Ni B**, Gao H. <a href="https://bo-ni.netlify.app/publication/2020-preview-gra-ribbon/">Harness the Power of Fracture: Controlled Fragmentation of Graphene via Substrate Necking.</a> Matter. 2020 Mar 4;2(3):521-4.
 
 **Ni B**, Gao H. Crack propogation in multilayered 2D materials in the presence of interlayer sliding. (Under working)

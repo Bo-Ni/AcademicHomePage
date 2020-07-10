@@ -290,4 +290,4 @@ In the graphene nanolattice, it is observed that unit cells near the crack tip t
 
 Therefore, the graphene nanolattice with snap-through instability can tolerate crack-like flaw and behave in a ductile manner within the pseudo plastic deformation region.
 
-1. Ni B, Gao H. Engineer Energy Dissipation in 3D Graphene Nanolattice Via Reversible Snap-Through Instability. Journal of Applied Mechanics. 2020 Mar 1;87(3).
+1. Ni B, Gao H. <a href="https://bo-ni.netlify.app/publication/2020-jam-snapthrough/">Engineer Energy Dissipation in 3D Graphene Nanolattice Via Reversible Snap-Through Instability.</a> Journal of Applied Mechanics. 2020 Mar 1;87(3).

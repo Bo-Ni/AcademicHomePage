@@ -58,7 +58,7 @@ In this project, we have been systematically exploring the potential of using to
   </div> -->
 </div>
 
-1. Ni B, et al. "Topological design of graphene." Handbook of Graphene, Volume 2: Physics, Chemistry, and Biology (2019): 1.
+1. Ni B, et al. "<a href="https://bo-ni.netlify.app/publication/2019-topological-design/">Topological design of graphene." Handbook of Graphene</a>, Volume 2: Physics, Chemistry, and Biology (2019): 1.
 
 ## **Topologically designed graphene**
 With this design framework, we have generated tough graphene samples, like rebar graphene, vein-patterned graphene, nacre-liked graphene and double-folded graphene, borrowing the inspirations from engineering and nature. Various toughening mechanisms are activated to hinder crack propagation and dissipate strain energy, including crack tip blunting, crack trapping, ligament bridging, crack deflection, daughter crack initiation and coalescence, pseudo-plastic deformation and snap-through among multi-stable states. A topological toughening library linking the simple topological patterns to the effective toughening mechanisms is presented as guidance for engineering tough 2D materials.
@@ -90,8 +90,8 @@ With this design framework, we have generated tough graphene samples, like rebar
   </div> -->
 </div>
 
-2. Hacopian EF*, Yang Y*, Ni B* et al. "Toughening graphene by integrating carbon nanotubes." ACS nano 12.8 (2018): 7901-7910. (*contributed equally)
-3. Ni B et al. "Topological toughening of graphene" (under working)
+2. Hacopian EF*, Yang Y*, <strong>Ni B*</strong> et al. "<a href="https://bo-ni.netlify.app/publication/2018-rebar-graphene/">Toughening graphene by integrating carbon nanotubes.</a>" ACS nano 12.8 (2018): 7901-7910. (<strong>*contributed equally</strong>)
+3. <strong>Ni B</strong>, Li J, Zhang T, Gao H. "Topological toughening of graphene" (under working)
 
 {{< gallery album="slides" >}}
 
