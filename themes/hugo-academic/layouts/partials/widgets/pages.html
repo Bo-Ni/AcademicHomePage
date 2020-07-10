@@ -27,9 +27,18 @@
   {{ $query = $query | intersect $archive_page.Pages }}
 {{ end }}
 {{ if $st.Params.content.filters.publication_type }}
+  {{ printf "publication_types/%s" }}
   {{ $archive_page = site.GetPage (printf "publication_types/%s" $st.Params.content.filters.publication_type) }}
   {{ $query = $query | intersect $archive_page.Pages }}
 {{ end }}
+<!--=============================-->
+<!-- {{ if $st.Params.content.filters.IsPreview }}
+  {{ $st.Params.content.filters.IsPreview }}
+  {{ printf "IsPreview/%s" }}
+  {{ $archive_page = site.GetPage (printf "IsPreview/%s" $st.Params.content.filters.IsPreview) }}
+  {{ $query = $query | intersect $archive_page.Pages }}
+{{ end }} -->
+<!--=============================-->
 {{ if $st.Params.content.filters.author }}
   {{ $archive_page = site.GetPage (printf "authors/%s" (urlize $st.Params.content.filters.author)) }}
   {{ $query = $query | intersect $archive_page.Pages }}
@@ -39,9 +48,11 @@
 {{ end }}
 {{ if $st.Params.content.filters.exclude_past }}
   {{ $query = where $query "Date" ">=" now }}
+  {{ $query }}
 {{ end }}
 {{ if $st.Params.content.filters.exclude_future }}
   {{ $query = where $query "Date" "<" now }}
+  {{ $query }}
 {{ end }}
 
 {{ $count := len $query }}

@@ -7,7 +7,10 @@ firstauthors = "2"
 date = "2019-06-12"
 image_preview = "pdf/BoNi/Topological-design-of-graphene.jpg"
 math = true
+
 publication_types = ["6"]
+tags = ["publication"]
+
 publication = "*Handbook of Graphene, Volume 2: Physics, Chemistry, and Biology, Chapter 1*"
 publication_short = ""
 selected = false

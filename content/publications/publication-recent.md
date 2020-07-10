@@ -5,16 +5,16 @@
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 20  # Order that this section will appear.
+weight = 30  # Order that this section will appear.
 
-title = "Upcoming"
+title = "Recent"
 subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-   page_type = "talk"
-  # page_type = "publication"
-  
+#  page_type = "talk"
+   page_type = "publication"
+
   # Choose how much pages you would like to display (0 = all pages)
   count = 0
   
@@ -22,16 +22,17 @@ subtitle = ""
   offset = 0
 
   # Page order. Descending (desc) or ascending (asc) date.
-  order = "asc"
+  order = "desc"
 
   # Filter posts by a taxonomy term.
   [content.filters]
-    tag = ""
+    tag = "publication"
     category = ""
     publication_type = ""
-    exclude_featured = false
-    exclude_past = true
-    exclude_future = false
+  #  exclude_featured = false
+  #  exclude_past = false
+  #  exclude_future = true
+    showfuture = "0"
     
 [design]
   # Toggle between the various page layout types.
@@ -39,7 +40,11 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 4
+
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["40px", "200px", "40px", "200px"]
   
 [design.background]
   # Apply a background color, gradient, or image.

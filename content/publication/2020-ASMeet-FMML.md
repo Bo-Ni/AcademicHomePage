@@ -7,7 +7,10 @@ firstauthors = "0"
 date = "2020-01-29"
 image_preview = "pdf/BoNi/ASMeet-FMML.jpg"
 math = true
+
 publication_types = ["1"]
+tags = ["publication"]
+
 publication = "*2020 Adhesion Society Annula Meeting, Plenary Talk delivered by Prof. Huajian Gao*"
 publication_short = ""
 selected = false

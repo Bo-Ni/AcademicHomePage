@@ -7,7 +7,10 @@ firstauthors = "0"
 date = "2020-03-01"
 image_preview = "pdf/BoNi/JAM-snapthrough.jpg"
 math = true
+
 publication_types = ["2"]
+tags = ["publication"]
+
 publication = "*Journal of Applied Mechanics, 87(3)*"
 publication_short = ""
 selected = false

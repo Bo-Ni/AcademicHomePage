@@ -8,6 +8,9 @@ date = "2018-12-30"
 image_preview = "https://ars.els-cdn.com/content/image/1-s2.0-S0022509617307949-fx1_lrg.jpg"
 math = true
 publication_types = ["2"]
+
+tags = ["publication"]
+
 publication = "*Journal of the Mechanics and Physics of Solids, 120, 36-48*"
 publication_short = ""
 selected = false

@@ -7,7 +7,10 @@ firstauthors = "3"
 date = "2018-07-27"
 image_preview = "https://pubs.acs.org/na101/home/literatum/publisher/achs/journals/content/ancac3/2018/ancac3.2018.12.issue-8/acsnano.8b02311/20180822/images/large/nn-2018-02311f_0008.jpeg"
 math = true
+
 publication_types = ["2"]
+tags = ["publication"]
+
 publication = "*JACS nano, 12(8), 7901-7910*"
 publication_short = ""
 selected = false

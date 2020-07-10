@@ -7,7 +7,10 @@ firstauthors = "2"
 date = "2020-03-04"
 image_preview = "pdf/BoNi/IJF-Tstress.jpg"
 math = true
+
 publication_types = ["2"]
+tags = ["publication"]
+
 publication = "*International Journal of Fracture, 1-11*"
 publication_short = ""
 selected = false
