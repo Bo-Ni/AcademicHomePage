@@ -121,7 +121,7 @@ The nontrivial the mode II SIF under the presence of asymmetric surface stress i
 
 To study the crack propagation under such asymmetric lattice geometry, we adopt a Phase Field framework. For the specific lattice and surface stress in h-BN, we extend the PF model by including 
 * an fracture energy/fracture driving force with hexagonal anisotropy
-* an new surface phase tracing the crack and providing asymmeteric surface stress.
+* an new surface phase tracing the crack and providing asymmetric surface stress.
 
 With an anisotropic fracture driving force and asymmetric surface stress, the crack can switches between different preferred orientation. And the leading crack tip will shield other slower crack branches.
 
