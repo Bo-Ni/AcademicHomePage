@@ -28,21 +28,21 @@
   url = "/talklist"
   weight = 50
 
-[[main]]
-  name = "About"
-  url = "/about"
-  weight = 60
+# [[main]]
+#   name = "About"
+#   url = "/about"
+#   weight = 60
 
-[[main]]
-  name = "Resume"
-  url = "/resume"
-  weight = 70
+# [[main]]
+#   name = "Resume"
+#   url = "/resume"
+#   weight = 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[main]]
    name = "CV"
-   url = "files/Bo_Ni_CV_for_Visa.pdf"
+   url = "files/Bo_Ni_academic_cv_AutoRecovered.pdf"
    weight = 80
 
 # ------------------------------------------------------------------------------------
