@@ -11,6 +11,7 @@
   
   {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}
+    <!--TODO: change color of background-->
     {{ if eq $.Params.view 1 }}
       {{ partial "li_list" . }}
     {{ else if eq $.Params.view 3 }}
@@ -19,6 +20,7 @@
       {{ partial "li_compact_awesome" . }}
     {{ end }}
   {{ end }}
+
 
   {{ partial "pagination" . }}
 
