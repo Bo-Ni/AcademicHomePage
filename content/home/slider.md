@@ -22,7 +22,8 @@ height = "325px"
   align = "left"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/p2303985369.jpg"  # Image path relative to your `static/img/` folder.
+  # overlay_img = "headers/p2303985369.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "headers/s-5.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
   
   cta_label = "see my research"
@@ -36,7 +37,8 @@ height = "325px"
   align = "right"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/tulip.jpg"  # Image path relative to your `static/img/` folder.
+  # overlay_img = "headers/tulip.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "headers/s-6.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
   cta_label = "see my research"
@@ -50,7 +52,8 @@ height = "325px"
   align = "center"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/yuen.jpg"  # Image path relative to your `static/img/` folder.
+  # overlay_img = "headers/yuen.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "headers/s-1.jpg"  # Image path relative to your `static/img/` 
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
   cta_label = "see my research"
@@ -64,7 +67,8 @@ height = "325px"
   align = "left"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/daisy.jpg #daisy-pink.jpg"  # Image path relative to your `static/img/` folder.
+  # overlay_img = "headers/daisy.jpg #daisy-pink.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "headers/s-2.jpg #daisy-pink.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4 # Darken the image. Value in range 0-1.
 
   cta_label = "see my research"
@@ -78,7 +82,8 @@ height = "325px"
   align = "right"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/p2241934369.jpg #bats.jpg"  # Image path relative to your `static/img/` folder.
+  # overlay_img = "headers/p2241934369.jpg #bats.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "headers/s-3.jpg #bats.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
   cta_label = "see my projects"
@@ -92,7 +97,8 @@ height = "325px"
   align = "center"
 
   overlay_color = "#404040"  # An HTML color value.
-  overlay_img = "headers/tulip.jpg"  # Image path relative to your `static/img/` folder.
+  # overlay_img = "headers/tulip.jpg"  # Image path relative to your `static/img/` folder.
+  overlay_img = "headers/s-4.jpg"  # Image path relative to your `static/img/` folder.
   overlay_filter = 0.4  # Darken the image. Value in range 0-1.
 
   cta_label = "see my research"
