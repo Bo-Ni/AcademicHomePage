@@ -29,7 +29,7 @@ role: PhD student
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:bo_ni@brown.edu'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:boni.mechanics@gmail.com' # 'mailto:bo_ni@brown.edu'  # For a direct email link, use "mailto:test@example.org".
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/apreshill

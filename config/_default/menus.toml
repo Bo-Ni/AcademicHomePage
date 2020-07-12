@@ -42,7 +42,7 @@
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 [[main]]
    name = "CV"
-   url = "files/Bo_Ni_academic_cv_AutoRecovered.pdf"
+   url = "files/cv_bo_ni_Jul_2020.pdf"
    weight = 80
 
 # ------------------------------------------------------------------------------------
