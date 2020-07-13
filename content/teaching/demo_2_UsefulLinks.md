@@ -61,7 +61,6 @@ subtitle = ""
  * #### ENGN 2210: **_[Continuum Mechanics](https://sites.google.com/a/brown.edu/engn2210-2017/home/)_** <br>by [Prof. Huajian Gao](https://vivo.brown.edu/display/hgao)
 
 ---
-
  * #### ENGN 2210: **_[Continuum Mechanics](https://www.brown.edu/Departments/Engineering/Courses/En221/)_** <br>by [Prof. Allan Bower](https://vivo.brown.edu/display/albower)
 
   * #### ENGN 2340: **_[Computational Methods in Solid Mechanics](https://www.brown.edu/Departments/Engineering/Courses/En2340/)_** <br>by [Prof. Allan Bower](https://vivo.brown.edu/display/albower)
